@@ -25,7 +25,7 @@ a:active {
 }
 
 nav {
-  text-align: center;
+  text-align: left;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -43,19 +43,24 @@ h3 {
   font-family: "Playfair Display", Times, serif; 
   text-align: center; 
   font-size: 15px;
-}
+} 
 
+h5 {
+  text-align: center;
+}
+/* Add style to your links */ 
 article {
   padding: 50px 0;
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 p {
   line-height: 1.5;
+  text-align: left;
 } 
 ul {
   text-align: left;
@@ -73,7 +78,10 @@ div {
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
+  height: auto; 
+  display: block; 
+  margin-right: auto;
+  margin-left: auto;
 }
 
 hr {
@@ -87,6 +95,5 @@ hr {
   color: #003049; 
   display: block;
   margin-right: auto; 
-  margin-left: auto;
-               
+  margin-left: auto;               
 }
