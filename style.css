@@ -58,12 +58,10 @@ p {
   line-height: 1.5;
 } 
 ul {
-  display: inline-block;
-  text-align: center;
+  text-align: left;
 } 
 ol {
-  display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
