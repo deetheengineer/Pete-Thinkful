@@ -10,9 +10,15 @@ body {
 } 
 header {
   text-align: center;
+  color: #00008B; 
 }
+
+
+nav {
+  text-align: left;
+} 
 a:link {
-  color: #00008B;
+  color: #d62828;
 } 
 a:visited {
   color: #d62828;
@@ -22,10 +28,6 @@ a:hover {
 } 
 a:active {
   color: deeppink;
-}
-
-nav {
-  text-align: left;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
